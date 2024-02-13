@@ -53,15 +53,28 @@ a {
 @media (max-width: 1024px) {
     .container {
         width: 768px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media (max-width: 768px) {
     .container {
         width: 640px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media (max-width: 640px) {
     .container {
-        width: 475px;
+        width: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
