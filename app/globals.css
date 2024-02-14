@@ -86,8 +86,10 @@ a {
 }
 @media (max-width: 400px) {
     .container {
-        width: 300px;
+        width: 330px;
         padding-left: 0px;
         padding-right: 0px;
+        margin-left: 20px;
+        
     }
 }
