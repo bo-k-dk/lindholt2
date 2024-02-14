@@ -52,7 +52,7 @@ export default function Home() {
         </div>
         <div>
           <p className={styles.pdfText}>
-            Referat af Stiftende generalforsamling inkl. vedtæfter
+            Referat af Stiftende generalforsamling inkl. vedtægter
           </p>
         </div>
       </div>
