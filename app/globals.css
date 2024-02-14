@@ -33,6 +33,19 @@ a {
     justify-content: space-between;
 }
 
+.mailLink {
+    color: #3673fd;
+}
+
+.notReady
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
 @media (max-width: 1536px) {
     .container {
         width: 1366px;
@@ -67,14 +80,14 @@ a {
 @media (max-width: 640px) {
     .container {
         width: 400px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media (max-width: 400px) {
     .container {
         width: 300px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }

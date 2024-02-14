@@ -1,0 +1,59 @@
+.container {
+    height: 500px;
+}
+
+.newsHeader {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.newsSection {
+    width: 1000px;
+}
+
+.bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pdfDiv {
+    display: flex;
+    align-items: center;
+}
+
+.pdfText {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.pdfLink {
+    margin-top: 20px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 1024px) {
+    .newsSection {
+        width: 700px;
+    }
+}
+@media (max-width: 640px) {
+    .newsHeader {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .newsSection {
+        width: 450px;
+    }
+}
+@media (max-width: 400px) {
+    .newsHeader {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .newsSection {
+        width: 300px;
+    }
+}

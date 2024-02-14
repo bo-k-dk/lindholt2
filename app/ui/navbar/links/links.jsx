@@ -9,25 +9,21 @@ export default function Links() {
     const [open, setOpen] = useState(false);
     const links = [
         {
-            title: "Home",
+            title: "Nyheder",
             path: "/",
         },
         {
-            title: "About",
+            title: "Historie",
             path: "/about",
         },
         {
-            title: "Contact",
+            title: "Kontakt",
             path: "/contact",
-        },
-        {
-            title: "Blog",
-            path: "/blog/test",
         },
     ];
 
-    const session = true;
-    const isAdmin = true;
+    const session = false;
+    const isAdmin = false;
 
     return (
         <div className={styles.container}>
@@ -44,7 +40,9 @@ export default function Links() {
                     <NavLink item={{ title: "Login", path: "/login" }} />
                 )}
             </div>
+
             <button className={styles.menuButton} onClick={() => setOpen((prev) => !prev)}>MENU</button>
+
             {
                 open && <div className={styles.mobileLinks} >
                     {links.map((link => (

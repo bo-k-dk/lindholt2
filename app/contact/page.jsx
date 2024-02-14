@@ -1,3 +1,3 @@
 export default function Contact() {
-    return <p>Contact</p>
+    return <p className="notReady">Denne side er ikke færdig endnu!</p>
 };
