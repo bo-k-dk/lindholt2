@@ -2,7 +2,7 @@
     --bg: #0d0c22;
     --bgSoft: #2d2b42;
     --text: white;
-    --textSoft: #e5e5e5;
+    --textSoft: hwb(0 44% 56%);
     --btn: #3673fd;
 }
 
@@ -15,6 +15,12 @@
 body {
     background-color: var(--bg);
     color: var(--text);
+}
+
+.pastArticle
+{
+    color: var(--textSoft);
+    filter: grayscale(100%);
 }
 
 a {

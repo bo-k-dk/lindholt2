@@ -5,7 +5,7 @@
 
 .newsHeader {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 42px;
 }
 
 .newsSection {
@@ -61,5 +61,11 @@
     }
     .newsSection {
         width: 300px;
+    }
+    .pdfLink {
+        margin-top: 10px;
+        min-width: 75px;
+        height: 50px;
+        align-items: center;
     }
 }
